@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隐私政策 · Ink Drop Brawl《墨滴乱斗》</title>
+<meta name="description" content="Ink Drop Brawl《墨滴乱斗》隐私政策 / Privacy Notice. We collect nothing.">
+<style>
+  :root{
+    --ink:#12151b; --muted:#5b6472; --line:#e3e7ee; --bg:#ffffff;
+    --accent:#1f6feb; --soft:#f6f8fb; --warn:#fff5e6;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    font-size:16px; line-height:1.75; letter-spacing:.01em;
+  }
+  .wrap{max-width:780px; margin:0 auto; padding:56px 24px 96px}
+  header{border-bottom:1px solid var(--line); padding-bottom:28px; margin-bottom:40px}
+  .kicker{font-size:13px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); margin:0 0 10px}
+  h1{font-size:30px; line-height:1.3; margin:0 0 14px; font-weight:650}
+  .meta{font-size:14px; color:var(--muted); margin:0}
+  .meta b{color:var(--ink); font-weight:600}
+  .summary{
+    background:var(--soft); border-left:3px solid var(--accent);
+    padding:18px 22px; margin:0 0 40px; border-radius:0 6px 6px 0;
+    font-size:15px;
+  }
+  .summary p{margin:0}
+  h2{font-size:20px; margin:44px 0 14px; font-weight:640; letter-spacing:.005em}
+  h2 span{color:var(--muted); font-weight:400; font-size:15px}
+  p{margin:12px 0}
+  ul{margin:12px 0; padding-left:22px}
+  li{margin:7px 0}
+  .no{list-style:none; padding-left:0}
+  .no li::before{content:"✕"; color:#c2410c; font-weight:700; margin-right:10px}
+  table{width:100%; border-collapse:collapse; margin:18px 0; font-size:14.5px}
+  th,td{text-align:left; padding:11px 12px; border-bottom:1px solid var(--line); vertical-align:top}
+  th{background:var(--soft); font-weight:600; font-size:13.5px; color:var(--muted); letter-spacing:.03em}
+  code{background:var(--soft); padding:1px 6px; border-radius:4px; font-size:13.5px;
+       font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .en{color:var(--muted); font-size:14px; display:block; margin-top:3px}
+  hr{border:0; border-top:1px solid var(--line); margin:48px 0}
+  footer{font-size:13.5px; color:var(--muted); line-height:1.8}
+  a{color:var(--accent); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .tag{display:inline-block; font-size:12px; padding:2px 9px; border-radius:99px;
+       background:var(--soft); color:var(--muted); margin-left:8px; vertical-align:middle}
+  @media (max-width:600px){
+    .wrap{padding:36px 18px 72px}
+    h1{font-size:24px}
+    h2{font-size:18px; margin-top:36px}
+    table{font-size:13.5px}
+    th,td{padding:9px 8px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <p class="kicker">Ink Drop Brawl · Legal</p>
+  <h1>隐私政策 <span class="tag">Privacy Notice</span></h1>
+  <p class="meta">
+    <b>生效日期</b> 2026 年 10 月 22 日 &nbsp;·&nbsp; <b>Effective</b> 2026-10-22<br>
+    适用对象：Ink Drop Brawl《墨滴乱斗》桌面版（Steam 及其他 PC 渠道）
+  </p>
+</header>
+
+<div class="summary">
+  <p><strong>一句话摘要：我们不收集你的个人信息。没有账号系统，没有遥测，没有广告。</strong><br>
+  你的设置和存档只存在你自己的电脑上；只有当你主动创建或加入联机房间时，联机数据才会经由中继服务器转发给同一房间的其他玩家。</p>
+</div>
+
+<h2>1. 我们收集什么 <span>/ What we collect</span></h2>
+<p><strong>答案：什么都不收集。</strong>本游戏：</p>
+<ul class="no">
+  <li>无用户账号系统</li>
+  <li>无任何遥测、分析统计或崩溃上报</li>
+  <li>无广告、无追踪 SDK、无第三方分析</li>
+  <li>不读取你的通讯录、文件、剪贴板或位置</li>
+</ul>
+
+<h2>2. 存在你电脑上的本地数据 <span>/ Local data on your device</span></h2>
+<p>以下数据<strong>只保存在你的电脑上</strong>，我们无法访问：</p>
+<table>
+  <thead><tr><th>数据</th><th>位置</th><th>内容</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>设置与档案</td>
+      <td>浏览器 localStorage（Electron 分区存储）</td>
+      <td>画质 / 音量 / 键位、等级与战绩、当前配装</td>
+    </tr>
+    <tr>
+      <td>资源缓存</td>
+      <td>IndexedDB（数据库名 <code>inkwave-assets</code>）</td>
+      <td>程序化纹理的字节缓存，用于加速二次启动</td>
+    </tr>
+    <tr>
+      <td>本地 MOD</td>
+      <td>游戏目录 <code>mods/</code> 文件夹</td>
+      <td>你自己放入的 mod 文件（只读加载，不上传）</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>清除方式</strong>：删除存档文件；在游戏目录删除 <code>mods/</code> 子文件夹；清除应用的站点数据。卸载游戏后，上述数据随安装目录与用户数据目录一并保留或删除，均不会离开你的电脑。</p>
+
+<h2>3. 联机时的数据 <span>/ Online play (private rooms)</span></h2>
+<p>当你<strong>主动</strong>创建或加入联机房间时，你的设备会连接到游戏作者部署的中继服务器（Cloudflare Workers + Durable Objects，域名 <code>inkwave-net.inkwave.workers.dev</code>）：</p>
+<ul>
+  <li><strong>转发内容</strong>：房间内玩家的昵称、表情，以及对局所需的原始游戏消息（位置 / 动作 / 击杀事件等），由服务器<strong>原样转发</strong>给同一房间的其他玩家。</li>
+  <li><strong>不解析、不存储</strong>：中继服务器把游戏消息当作不透明的字符串转发，不解析内容、不写入数据库；房间与成员信息只存在于内存中，房间解散即消失。</li>
+  <li><strong>网络元数据</strong>：Cloudflare 作为服务提供商在提供连接时可见你的 IP 地址与连接时间（任何联网服务皆如此）；我们无法、也不会将其用于用户画像。</li>
+  <li><strong>房间结束后</strong>：不留任何房间数据。</li>
+</ul>
+<p><strong>Steam 版补充</strong>：通过 Steam 联机或使用 Steam 成就 / 云存档时，Valve Corporation 会按其自己的政策处理相关数据（好友、成就等），详见 Valve 隐私政策。我们不额外收集 Steam 账号信息。</p>
+
+<h2>4. 儿童隐私 <span>/ Children</span></h2>
+<p>本游戏不含成人内容。联机房间中玩家自拟的昵称与表情属于玩家间的公开交流，建议未成年玩家在家长知情下游戏，并避免在昵称中使用真实个人信息。</p>
+
+<h2>5. 第三方 <span>/ Third parties</span></h2>
+<ul>
+  <li>不向任何第三方出售、共享或转移你的个人数据（因为根本没有收集）。</li>
+  <li>运行依赖的开源组件清单见发行包内 <code>THIRD-PARTY-NOTICES.md</code>。</li>
+</ul>
+
+<h2>6. 政策变更 <span>/ Changes</span></h2>
+<p>若未来版本引入任何数据收集（例如官方排行榜），我们会在本页面显著位置更新并在游戏内公告。<strong>默认承诺不变：不收集，就是不收集。</strong></p>
+
+<h2>7. 联系方式 <span>/ Contact</span></h2>
+<p>隐私相关问题请联系：<a href="mailto:812764266@qq.com">812764266@qq.com</a></p>
+
+<hr>
+
+<footer>
+  <p><strong>English summary.</strong> We collect nothing. No accounts, no telemetry, no ads, no analytics.
+  Settings and saves live on your device. Online private rooms relay raw game messages via a Cloudflare
+  Workers fan-out server that never parses or stores them; Cloudflare can see connection metadata
+  (IP, timing) as with any internet service. Steam-related data is governed by Valve's privacy policy.
+  Contact: <a href="mailto:812764266@qq.com">812764266@qq.com</a>.</p>
+  <p>Ink Drop Brawl《墨滴乱斗》· Last updated 2026-10-22</p>
+</footer>
+
+</div>
+</body>
+</html>
